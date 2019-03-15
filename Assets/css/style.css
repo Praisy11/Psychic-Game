@@ -5,6 +5,7 @@ html {
   
   body {
       font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+      
       font-size: 16px;
   }
   
@@ -13,11 +14,13 @@ html {
       color: #4A5BD2
   }
   
-  .containter {
-      width: 100%;
+  .container {
+      /*width: 100%;*/
       max-width: 950px;
       margin: 0 auto;
-      
+     
+      background-color:purple;
+      color:white;
   }
   .main_section{
     color: #4A5BD2
@@ -70,7 +73,7 @@ html {
 
 @media screen and (max-width: 768px){
 
-    .containter {
+    .container {
         width: 80%;
     }   
     .footer {
@@ -96,7 +99,7 @@ html {
 	#pys2-image {
 		margin-right: 100px;
 	}
-    .containter {
+    .container {
         width: 50%;
     }    
     .footer {
